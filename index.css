@@ -1,0 +1,152 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+ul {
+   list-style: none;
+}
+body {
+   /* background: rgb(174, 238, 225);
+   background: radial-gradient(
+      circle,
+      rgba(174, 238, 225, 1) 0%,
+      rgba(148, 233, 205, 1) 100%
+   ); */
+  background-color:#f1f1f1 ; 
+}
+ul li a {
+   text-decoration: none;
+   font-weight: 600;
+   color: #333;
+}
+ul li {
+   transition: 0.5s;
+   cursor: pointer;
+}
+ul li:hover {
+   transform: translateY(-5px);
+}
+.Menu_Nav {
+   display: none;
+}
+#offer{
+  background-color: #e2e7ea ;
+}
+
+#avatar{
+   border: solid #fea758;
+   transition: 0.5s;
+}
+#card_{
+transition: 0.5s;
+}
+#card_:hover{
+   transform: translateY(-5px);
+   }
+#avatar:hover{
+ transform: translateY(-5px);
+}
+#cart_icon {
+   width: 30px;
+   height: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 7px;
+   border-radius: 50%;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   position: relative;
+}
+#❞{
+   color: #fea758;
+}
+
+.logo h5 {
+
+   color: #0F2C59;
+   text-shadow: 2px 4px 4px rgba(10, 170, 214, 0.6);
+}
+
+.activeNav {
+   display: flex;
+   transform: translateX(0);
+}
+section {
+   min-height: 60vh;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: linear-gradient(
+         to bottom,
+         rgba(53, 56, 19, 0.5),
+         rgba(16, 12, 12, 0.8)
+      ),
+      url("./Assets/cover.jpg");
+}
+footer{
+   background-color: rgba(100, 214, 200, 0.44); 
+   color: #fff;
+
+}
+ h1{
+   font-family: 'Bungee Spice', sans-serif;
+}
+
+.activeNav ul {
+   flex-direction: column;
+   padding: 1rem;
+}
+.card{
+   overflow: hidden;
+}
+.card img{
+   object-fit: contain;
+   height: 20vh;
+
+}
+.card img:hover{
+   transform: scale(1.1);
+}
+.card img{
+    transition: 0.5s;
+}
+i{
+
+    color: #fea758;
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+nav {
+   transition: 0.5s;
+}
+.btn{
+    transition: 0.5s;
+    background-color: or;
+}
+#btnOrder:hover{
+    transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+   .Menu_Nav {
+      display: flex;
+   }
+
+   nav {
+      display: none;
+      justify-content: center;
+      position: absolute;
+      top: 5rem;
+      right: 0;
+      width: 50%;
+      transition: 0.5s;
+      background-color: #4444;
+      border-radius: 10px;
+   }
+   nav ul li a {
+      color: aliceblue;
+      text-shadow: 2px 4px 4px rgba(10, 170, 214, 0.6);
+   }
+}
