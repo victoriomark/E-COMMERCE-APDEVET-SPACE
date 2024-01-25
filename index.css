@@ -125,10 +125,16 @@ nav {
     transition: 0.5s;
     background-color: or;
 }
+#btnOrder{
+   color: #fea758;
+    font-weight: 700;
+}
 #btnOrder:hover{
     transform: translateY(-5px);
 }
-
+#All{
+   color: #fea758;
+}
 @media (max-width: 768px) {
    .Menu_Nav {
       display: flex;
