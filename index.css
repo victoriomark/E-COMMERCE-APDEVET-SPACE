@@ -64,8 +64,8 @@ transition: 0.5s;
 
 .logo h5 {
 
-   color: #0F2C59;
-   text-shadow: 2px 4px 4px rgba(10, 170, 214, 0.6);
+   color: #fea758;
+
 }
 
 .activeNav {
@@ -131,6 +131,9 @@ nav {
 }
 #btnOrder:hover{
     transform: translateY(-5px);
+}
+footer div h5{
+   color: #fea758;
 }
 #All{
    color: #fea758;
