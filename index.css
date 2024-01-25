@@ -142,11 +142,10 @@ nav {
       right: 0;
       width: 50%;
       transition: 0.5s;
-      background-color: #4444;
+      background-color: aliceblue;
       border-radius: 10px;
    }
    nav ul li a {
-      color: aliceblue;
-      text-shadow: 2px 4px 4px rgba(10, 170, 214, 0.6);
+      color: #fea758;
    }
 }
