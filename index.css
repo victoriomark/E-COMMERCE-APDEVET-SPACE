@@ -133,8 +133,15 @@ nav {
    color: #fea758;
     font-weight: 700;
 }
+#bread{
+   background-color: #fff;
+}
 #btnOrder:hover{
     transform: translateY(-5px);
+}
+#Color{
+   
+   background-color: #fea758;
 }
 footer div h5{
    color: #fea758;
