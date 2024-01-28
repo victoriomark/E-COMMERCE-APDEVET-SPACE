@@ -1,6 +1,12 @@
 const Menu_Nav = document.querySelector(".Menu_Nav")
 const NavLinks = document.querySelector("nav")
+const Heart = document.querySelectorAll(".card button .fa-heart")
 
+Heart.forEach((x)=>{
+      x.addEventListener("click",()=>{
+           x.classList.toggle("IsActiveHeart")
+      })
+})
 
 
 
