@@ -68,6 +68,13 @@ transition: 0.5s;
    color: #fea758;
 
 }
+#img_team{
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+   border-radius: 50%;
+   border: solid 3px #fea758;
+}
 
 .activeNav {
    display: flex;
@@ -80,7 +87,7 @@ section {
    background-size: cover;
    background-image: linear-gradient(
          to bottom,
-         rgba(193, 187, 7, 0.5),
+         rgba(0, 0, 0, 0.5),
          rgba(0, 0, 0, 0.8)
       ),
       url("./Assets/cover.jpg");
@@ -100,6 +107,7 @@ footer{
 }
 .card{
    overflow: hidden;
+   transition: 0.5s;
 }
 .card img{
    object-fit: contain;
@@ -130,6 +138,9 @@ nav {
    color: #fea758;
     font-weight: 700;
 }
+#brand{
+   color: #fea758;
+}
 #bread{
    background-color: #fff;
 }
@@ -138,7 +149,7 @@ nav {
 }
 #Color{
    
-   background-color: #fea758;
+  color:  #fea758;
 }
 footer div h5{
    color: #fea758;
