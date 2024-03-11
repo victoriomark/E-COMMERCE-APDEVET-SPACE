@@ -36,7 +36,7 @@
          <nav>
             <ul class="d-flex gap-5">
                <li>
-                  <a href="../index.html">Home</a>
+                  <a href="../index.php">Home</a>
                </li>
                <li>
                   <a href="Store.php">Store</a>

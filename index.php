@@ -163,7 +163,7 @@
              class="card rounded-4 p-2 col-lg-3 col-md-5">
                <img class="card-img" src="./Assets//Deals/./pic1.avif" alt="" />
                <div class="card-body">
-                  <h6 class="card-title">Gildan Men's Crew T-Shirts, Multipack, Style G1100</h3>
+                  <h6 class="card-title">Gildan Men's Crew T-Shirts, Multipack, Style G1100</h6>
                   <p class="card-text">
                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                      Vel, nihil.

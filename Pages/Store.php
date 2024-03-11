@@ -34,13 +34,13 @@
          <nav>
             <ul class="d-flex gap-5">
                <li>
-                  <a href="../index.html">Home</a>
+                  <a href="../index.php">Home</a>
                </li>
                <li>
                   <a href="#">Store</a>
                </li>
                <li>
-                  <a href="../Pages/About.html">About Us</a>
+                  <a href="About.php">About Us</a>
                </li>
                <li id="cart_icon">
                   <i class="fa-solid fa-cart-shopping"></i>
@@ -57,11 +57,11 @@
             <div>
                <ul class="d-flex gap-2">
                   <li>
-                     <a href="../index.html">Home</a>
+                     <a href="../index.php">Home</a>
                   </li>
                   <li class="fw-bold">/</li>
                   <li>
-                     <a href="./Store.html">Shop</a>
+                     <a href="Store.php">Shop</a>
                   </li>
                </ul>
             </div>
