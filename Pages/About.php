@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -38,7 +39,7 @@
                   <a href="../index.html">Home</a>
                </li>
                <li>
-                  <a href="../Pages/Store.html">Store</a>
+                  <a href="Store.php">Store</a>
                </li>
                <li>
                   <a href="#">About Us</a>

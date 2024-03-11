@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -38,10 +40,10 @@
                   <a href="#">Home</a>
                </li>
                <li>
-                  <a href="./Pages/Store.html">Store</a>
+                  <a href="Pages/Store.php">Store</a>
                </li>
                <li>
-                  <a href="./Pages/About.html">About Us</a>
+                  <a href="Pages/About.php">About Us</a>
                </li>
                <li id="cart_icon">
                   <i class="fa-solid fa-cart-shopping"></i>
